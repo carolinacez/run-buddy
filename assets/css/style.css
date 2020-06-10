@@ -318,6 +318,16 @@ header a {
       display: flex;
       flex-direction: column;
   }
+  .service-grid-container {
+      display:grid;
+  }
+  .service-grid-item {
+      width: 200px;
+      height: 50px;
+      background-color: orange;
+      border: solid;
+      color: black;
+  }
   
   /* REACH OUT STYLES END */
   @media screen and (max-width: 980px) {
